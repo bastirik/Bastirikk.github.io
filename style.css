@@ -32,7 +32,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     overflow-x: hidden;
 }
 
@@ -83,7 +83,6 @@ body {
 .jumbotron {
     background-color: var(--primary-color);
     border-radius: 0px 0px 500px 500px;
-    overflow-x:hidden;
 }
 
 #logo {
