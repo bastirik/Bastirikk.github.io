@@ -128,9 +128,29 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* Extra large devices (large desktops) */
+#hero {
+    margin-top: 30%;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #hero {
+        margin-top: 32%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
     #hero {
         margin-top: 40%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #hero {
+        margin-top: 16%;
     }
 }
 
@@ -140,18 +160,3 @@ body {
         margin-top: 40%;
     }
 }
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    #hero {
-        margin-top: 10%;
-    }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
-
-/* Extra large devices (large desktops) */
