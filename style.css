@@ -137,14 +137,14 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #hero {
-        margin-top: 10%;
+        margin-top: 40%;
     }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     #hero {
-        margin-top: 40%;
+        margin-top: 10%;
     }
 }
 
