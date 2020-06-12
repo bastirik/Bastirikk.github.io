@@ -126,9 +126,8 @@ body {
     }
 }
 
-.vertical-center {
-    min-height: 95%;
-    min-height: 95vh;
-    display: flex;
-    align-items: center;
-}
+@media screen and (max-width: 768px) {
+    #hero {
+       margin-top: 40%;
+    }
+  }
