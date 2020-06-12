@@ -1,24 +1,26 @@
 @font-face {
-    font-family: "GothamRounded"; 
+    font-family: "GothamRounded";
     src: url('fonts/gotham-rounded/GothamRounded-Book.otf');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: "GothamRounded"; 
+    font-family: "GothamRounded";
     src: url('fonts/gotham-rounded/GothamRounded-Bold.otf');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "AvenirNext"; 
+    font-family: "AvenirNext";
     src: url('fonts/avenir-next/AvenirNextLTPro-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: "AvenirNext"; 
+    font-family: "AvenirNext";
     src: url('fonts/avenir-next/AvenirNextLTPro-Bold.otf');
     font-weight: bold;
     font-style: normal;
@@ -30,7 +32,8 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
+    overflow-x: hidden;
 }
 
 .navbar-light .navbar-brand,
@@ -43,19 +46,22 @@ body {
     color: var(--secondary-color);
 }
 
-.hvr-float { 
-    display: inline-block; 
-    vertical-align: middle; 
-    transform: translateZ(0); 
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0); 
-    backface-visibility: hidden; 
-    -moz-osx-font-smoothing: grayscale; 
-    transition-duration: 0.3s; 
-    transition-property: transform; 
-    transition-timing-function: ease-out; 
-} 
-.hvr-float:hover, .hvr-float:focus, .hvr-float:active { 
-    transform: translateY(-5px); 
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+    transform: translateY(-5px);
 }
 
 .navbar-custom .navbar-toggler,
@@ -68,4 +74,62 @@ body {
 
 .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(252, 235, 211, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-custom {
+    background-color: var(--primary-color);
+}
+
+.jumbotron {
+    background-color: var(--primary-color);
+    border-radius: 0px 0px 500px 500px;
+    overflow-x:hidden;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+#dashes {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 80%;
+
+    -webkit-animation: spin 30s linear infinite;
+    -moz-animation: spin 30s linear infinite;
+    animation: spin 30s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.vertical-center {
+    min-height: 95%;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
 }
