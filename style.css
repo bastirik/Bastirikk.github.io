@@ -29,6 +29,7 @@
 :root {
     --primary-color: rgb(35, 82, 102);
     --secondary-color: rgb(252, 235, 211);
+    --tertiary-color: rgb(178, 103, 59);
 }
 
 body {
@@ -45,24 +46,6 @@ body {
     font-weight: bold;
     font-size: 18pt;
     color: var(--secondary-color);
-}
-
-.hvr-float {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-}
-
-.hvr-float:hover,
-.hvr-float:focus,
-.hvr-float:active {
-    transform: translateY(-5px);
 }
 
 .navbar-custom .navbar-toggler,
@@ -84,7 +67,8 @@ body {
     margin-bottom: -1px;
 }
 
-.jumbotron {
+#splash {
+    height: 93vh;
     background-color: var(--primary-color);
     border-radius: 0px 0px 600px 600px;
 }
@@ -167,4 +151,33 @@ body {
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border-radius: 25px;
+}
+
+#welhome,
+#crate {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+#welhome .card-body .card-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#crate .card-body .card-title {
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.project-link, .project-link:hover {
+    color: var(--tertiary-color);
 }
