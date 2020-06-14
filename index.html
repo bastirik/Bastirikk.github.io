@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+  <nav class="navbar navbar-expand-md navbar-light navbar-custom fixed-top">
     <a class="navbar-brand hvr-float ml-lg-5 ml-md-3" href="#">BASAK LACIN</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,16 +36,29 @@
     </div>
   </nav>
 
-  <div class="jumbotron">
+  <div class="jumbotron" style="height: 100vh;">
     <div class="container">
+
       <div class="row align-items-center text-center" id="hero">
         <img src='images/logo.png' class="img-fluid" id="logo">
         <img src="images/circle.png" class="img-fluid" id="dashes">
       </div>
+
+      <div class="row mt-5">
+        <div class="col-12 offset-md-6 col-md-6 offset-lg-7 col-lg-4">
+          <div class="card" id="greeting">
+            <div class="card-body">
+              <h5 class="card-title p-2"><b>I'm Basak!</b></h5>
+              <p class="card-text p-2">I’m a <b>UX Designer</b> who loves to play with <b>colors</b> and <b>shapes</b>. My motivation in design is to search for little stories behind the <b>details</b> and create new ones for people to <b>experience</b>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="offset-4 col-8 offset-md-6 col-md-6 offset-lg-7 col-lg-4">
         <div class="card" style="" id="greeting">
@@ -56,7 +69,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
