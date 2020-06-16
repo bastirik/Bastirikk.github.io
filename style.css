@@ -1,70 +1,25 @@
-@font-face {
-    font-family: "GothamRounded";
-    src: url('fonts/gotham-rounded/GothamRounded-Book.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "GothamRounded";
-    src: url('fonts/gotham-rounded/GothamRounded-Bold.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "AvenirNext";
-    src: url('fonts/avenir-next/AvenirNextLTPro-Regular.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "AvenirNext";
-    src: url('fonts/avenir-next/AvenirNextLTPro-Bold.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-:root {
-    --primary-color: rgb(35, 82, 102);
-    --secondary-color: rgb(252, 235, 211);
-    --tertiary-color: rgb(178, 103, 59);
-}
-
 body {
     background-color: var(--secondary-color);
     overflow-x: hidden;
     font-family: GothamRounded;
 }
 
+.navbar-custom {
+    background-color: var(--primary-color);
+    margin-bottom: -1px;
+}
+
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 .navbar-light .nav-item .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-    font-family: AvenirNext;
-    font-weight: bold;
-    font-size: 18pt;
     color: var(--secondary-color);
-}
-
-.navbar-custom .navbar-toggler,
-.navbar-custom .navbar-toggler:active,
-.navbar-custom .navbar-toggler:focus,
-.navbar-custom .navbar-toggler:visited {
-    border: none;
-    outline: none;
 }
 
 .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(252, 235, 211, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     margin-top: -5px;
     margin-right: -10px;
-}
-
-.navbar-custom {
-    background-color: var(--primary-color);
-    margin-bottom: -1px;
 }
 
 #splash {
@@ -170,12 +125,6 @@ body {
     color: var(--tertiary-color);
     font-weight: bold;
     font-size: 24px;
-}
-
-#footer {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    font-size: 20px;
 }
 
 .project-link, .project-link:hover {

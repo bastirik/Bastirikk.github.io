@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "GothamRounded";
+  src: url('fonts/gotham-rounded/GothamRounded-Book.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamRounded";
+  src: url('fonts/gotham-rounded/GothamRounded-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: rgb(35, 82, 102);
+  --secondary-color: rgb(252, 235, 211);
+  --tertiary-color: rgb(178, 103, 59);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    font-family: AvenirNext;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.navbar-custom .navbar-toggler,
+.navbar-custom .navbar-toggler:active,
+.navbar-custom .navbar-toggler:focus,
+.navbar-custom .navbar-toggler:visited {
+    border: none;
+    outline: none;
+}
+
+#footer {
+  background-color: transparent;
+  color: var(--primary-color);
+  font-size: 20px;
+}

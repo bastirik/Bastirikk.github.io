@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+  color: var(--primary-color);
+  font-family: AvenirNext;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    color: var(--primary-color);
+}
+
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35, 82, 102, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  margin-top: -5px;
+  margin-right: -10px;
+}
