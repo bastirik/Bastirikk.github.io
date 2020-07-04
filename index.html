@@ -22,9 +22,8 @@
 <body>
   <div id="rect"></div>
   <div id="circle"></div>
-  <!-- <svg>
-    <rect id="box" x="0" y="0" width="500" height="500"/>
-  </svg> -->
+  <img src='images/buyuk_lopcuk.png' class="img-fluid d-md-none" id="lopcuk">
+  <img src='images/lopcuk.png' class="img-fluid d-none d-md-block" id="lopcuk">
 
   <nav class="navbar navbar-expand-md navbar-light navbar-custom pt-4">
     <a class="navbar-brand hvr-float ml-lg-5 ml-md-3" href="./">BASAK LACIN</a>
@@ -45,37 +44,29 @@
     </div>
   </nav>
 
-  <!-- <div class="container">
-    <div class="row align-items-center text-center" id="hero">
-      <img src='images/logo.png' class="img-fluid" id="logo">
-      <img src="images/circle.png" class="img-fluid" id="dashes">
-    </div>
-  </div> -->
+  <img src='images/logo.svg' class="img-fluid" id="logo">
+  <img src="images/dashes_small.svg" class="img-fluid d-md-none" id="dashes">
+  <img src="images/dashes.svg" class="img-fluid d-none d-md-block" id="dashes">
 
-  <img src='images/logo.png' class="img-fluid" id="logo2">
-  <img src="images/circle.png" class="img-fluid" id="dashes2">   
-  <div style="height: 120vh;"></div>
+  <div class="container d-md-none" id="mobile-greet">
+    <h5 class="text-center"><b>I'm Basak!</b></h5>
+    <p style="color: var(--primary-color); margin-top: 3em;">I’m a <b>UX Designer</b> who loves to play with <b>colors</b> and <b>shapes</b>. My motivation in design is to search for little stories behind the <b>details</b> and create new ones for people to <b>experience</b>.</p>
+  </div>
 
-  <!-- <div class="jumbotron" id="splash">
-    <div class="container">
-      <div class="row align-items-center text-center" id="hero">
-        <img src='images/logo.png' class="img-fluid" id="logo">
-        <img src="images/circle.png" class="img-fluid" id="dashes">
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-12 offset-md-6 col-md-6 offset-lg-7 col-lg-4">
-          <div class="card" id="greeting">
-            <div class="card-body">
-              <h5 class="card-title p-2"><b>I'm Basak!</b></h5>
-              <p class="card-text p-2">I’m a <b>UX Designer</b> who loves to play with <b>colors</b> and <b>shapes</b>. My motivation in design is to search for little stories behind the <b>details</b> and create new ones for people to <b>experience</b>.</p>
-            </div>
+  <div class="container d-none d-md-block" id="greet_container">
+    <div class="row mt-5">
+      <div class="col-12 offset-md-6 col-md-6 offset-lg-7 col-lg-5">
+        <div class="card" id="greeting">
+          <div class="card-body">
+            <h4 class="card-title px-2 pt-2"><b>I'm Basak!</b></h4>
+            <p class="card-text px-2 pt-0 pb-2">I’m a <b>UX Designer</b> who loves to play with <b>colors</b> and <b>shapes</b>. My motivation in design is to search for little stories behind the <b>details</b> and create new ones for people to <b>experience</b>.</p>
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
+  <div style="height: 80vh;"></div>
 
   <div class="container">
     <div class="card" id="welhome">

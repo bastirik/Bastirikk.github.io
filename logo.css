@@ -21,7 +21,7 @@
   margin-left: -50vw;
 }
 
-#logo2 {
+#logo {
   position: absolute;
   width: var(--logo-size);
   left: 50vw;
@@ -30,7 +30,7 @@
   margin-top: calc(-1*var(--logo-size) / 2);
 }
 
-#dashes2 {
+#dashes {
   position: absolute;
   width: var(--dashes-size);
   left: 50vw;
