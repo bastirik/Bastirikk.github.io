@@ -56,6 +56,7 @@
   :root {
     --logo-size: 50vw;
   }
+
   #circle {
     height: 90vw;
     margin-top: -45vw;
@@ -68,6 +69,7 @@
     --logo-size: 50vw;
     --logo-offset: 10vh;
   }
+
   #circle {
     height: 100vw;
     margin-top: -50vw;
@@ -78,7 +80,7 @@
 @media (max-width: 767.98px) {
   :root {
     --logo-size: 50vw;
-    --logo-offset: 25vh;
+    --logo-offset: 20vh;
   }
 }
 
@@ -86,12 +88,12 @@
 @media (max-width: 575.98px) {
   :root {
     --logo-size: 50vw;
-    --logo-offset: 25vh;
+    --logo-offset: 20vh;
   }
 }
 
 
-/* @-moz-keyframes spin {
+@-moz-keyframes spin {
   100% {
     -moz-transform: rotate(-360deg);
   }
@@ -108,4 +110,4 @@
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg);
   }
-} */
+}
