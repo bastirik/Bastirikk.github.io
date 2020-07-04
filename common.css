@@ -28,7 +28,7 @@
 
 :root {
   --primary-color: rgb(35, 82, 102);
-  --secondary-color: rgb(252, 235, 211);
+  --secondary-color: rgb(255, 234, 208);
   --tertiary-color: rgb(178, 103, 59);
   --fourth-color: rgb(223, 168, 70);
 }
@@ -39,7 +39,7 @@
 .navbar-light .nav-item:hover .nav-link {
     font-family: AvenirNext;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 .navbar-custom .navbar-toggler,

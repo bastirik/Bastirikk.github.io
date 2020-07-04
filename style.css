@@ -1,5 +1,5 @@
 body {
-    background-color: var(--secondary-color);
+    background-color: white;
     overflow-x: hidden;
     font-family: GothamRounded;
 }
@@ -24,82 +24,9 @@ body {
 
 #splash {
     height: 93vh;
-    background-color: var(--primary-color);
-    border-radius: 0px 0px 600px 600px;
-}
-
-#logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 75%;
-    max-height: 75%;
-}
-
-#dashes {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 80%;
-    max-height: 80%;
-
-    -webkit-animation: spin 30s linear infinite;
-    -moz-animation: spin 30s linear infinite;
-    animation: spin 30s linear infinite;
-}
-
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(-360deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(-360deg);
-    }
-}
-
-@keyframes spin {
-    100% {
-        -webkit-transform: rotate(-360deg);
-        transform: rotate(-360deg);
-    }
-}
-
-/* Extra large devices (large desktops) */
-#hero {
-    margin-top: 30%;
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-    #hero {
-        margin-top: 32%;
-    }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    #hero {
-        margin-top: 40%;
-    }
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    #hero {
-        margin-top: 16%;
-    }
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    #hero {
-        margin-top: 40%;
-    }
+    background-color: transparent;
+    /* background-color: var(--primary-color); */
+    /* border-radius: 0px 0px 600px 600px; */
 }
 
 #greeting {
@@ -110,7 +37,7 @@ body {
 
 #welhome,
 #crate {
-    background-color: var(--secondary-color);
+    background-color: transparent;
     color: var(--primary-color);
     border: none;
 }
@@ -127,6 +54,8 @@ body {
     font-size: 24px;
 }
 
-.project-link, .project-link:hover {
+.project-link,
+.project-link:hover {
     color: var(--tertiary-color);
 }
+
