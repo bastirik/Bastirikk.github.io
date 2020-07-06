@@ -25,9 +25,9 @@
   <img src='images/buyuk_lopcuk.png' class="img-fluid d-md-none" id="lopcuk">
   <img src='images/lopcuk.png' class="img-fluid d-none d-md-block" id="lopcuk">
 
-  <nav class="navbar fixed-top navbar-expand-md navbar-light navbar-custom pt-4">
+  <nav class="navbar navbar-expand-md navbar-light navbar-custom pt-4">
     <a class="navbar-brand hvr-float ml-lg-5 ml-md-3" href="./">BASAK LACIN</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick='toggleColor();'>
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -49,13 +49,13 @@
   <img src="images/dashes.svg" class="img-fluid d-none d-md-block" id="dashes">
 
   <div class="container d-md-none" id="mobile-greet">
-    <h5 class="text-center"><b>I'm Basak!</b></h5>
-    <p style="color: var(--primary-color); margin-top: 3em;">I’m a <b>UX Designer</b> who loves to play with <b>colors</b> and <b>shapes</b>. My motivation in design is to search for little stories behind the <b>details</b> and create new ones for people to <b>experience</b>.</p>
+    <h5 class="text-center pb-5" id="basak"><b>I'm Basak!</b></h5>
+    <p style="color: var(--primary-color)">I’m a <b>UX Designer</b> who loves to play with <b>colors</b> and <b>shapes</b>. My motivation in design is to search for little stories behind the <b>details</b> and create new ones for people to <b>experience</b>.</p>
   </div>
 
   <div class="container d-none d-md-block" id="greet_container">
     <div class="row mt-5">
-      <div class="col-12 offset-md-6 col-md-6 offset-lg-7 col-lg-5">
+      <div class="col-12 offset-md-5 col-md-6 offset-lg-6 col-lg-5">
         <div class="card" id="greeting">
           <div class="card-body">
             <h4 class="card-title px-2 pt-2"><b>I'm Basak!</b></h4>
@@ -66,19 +66,17 @@
     </div>
   </div>
 
-  <div style="height: 80vh;"></div>
-
-  <div class="container">
+  <div class="container" id="projects">
     <div class="card" id="welhome">
-      <div class="row no-gutters">
-        <div class="col-md-5">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-md-5 col-lg-4">
           <img src="images/welhome.png" class="card-img">
         </div>
-        <div class="col-md-7 col-lg-5">
+        <div class="col-md-7 col-lg-4">
           <div class="card-body">
             <h5 class="card-title mb-4 mt-md-5">WelHome</h5>
             <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#" class="project-link hvr-forward">
+            <a href="#" class="project-link hvr-underline-from-left">
               <i class="fas fa-long-arrow-alt-right" style="font-size: 4rem;"></i>
             </a>
           </div>
@@ -87,11 +85,11 @@
     </div>
 
     <div class="card" id="crate">
-      <div class="row no-gutters flex-sm-row-reverse">
-        <div class="col-md-5">
+      <div class="row no-gutters flex-sm-row-reverse justify-content-center">
+        <div class="col-md-5 col-lg-4">
           <img src="images/crate.png" class="card-img">
         </div>
-        <div class="col-md-7 col-lg-5 text-md-right">
+        <div class="col-md-7 col-lg-4 text-md-right">
           <div class="card-body">
             <h5 class="card-title mb-4 mt-md-5">Crate.</h5>
             <p class="card-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -112,6 +110,7 @@
     </div>
   </div>
 
+  <script src="script.js"></script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

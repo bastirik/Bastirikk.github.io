@@ -56,32 +56,48 @@ body {
 #lopcuk {
     position: absolute;
     width: 100vw;
-    top: calc(50vh - var(--logo-offset));
-    z-index: -1;
+    top: calc(30vh - var(--logo-offset));
+    z-index: -2;
+}
+
+#projects {
+    margin-top: 60vh;
 }
 
 #greet_container {
-    margin-top: 55vh;
+    margin-top: 45vh;
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     #greet_container {
-        margin-top: 55vh;
+        margin-top: 45vh;
+    }
+
+    #lopcuk {
+        top: calc(45vh - var(--logo-offset));
     }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     #greet_container {
-        margin-top: 45vh;
+        margin-top: 35vh;
+    }
+
+    #lopcuk {
+        top: calc(50vh - var(--logo-offset));
+    }
+
+    #projects {
+        margin-top: 30vh;
     }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     #greet_container {
-        margin-top: 55vh;
+        margin-top: 45vh;
     }
 
     #greeting {
@@ -94,7 +110,7 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #greet_container {
-        margin-top: 68vh;
+        margin-top: 58vh;
     }
 
     #greeting {
@@ -106,6 +122,18 @@ body {
 
 #mobile-greet {
     position: relative;
-    margin-top: 50vh;
+    margin-top: 40vh;
     color: var(--secondary-color);
 }
+
+/* #welhomelink:hover #outline {
+    stroke: var(--tertiary-color);
+}
+
+#welhomelink:hover #link {
+    fill: var(--tertiary-color);
+}
+
+#welhomelink:hover #arrow {
+    fill: white;
+} */
