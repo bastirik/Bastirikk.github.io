@@ -5,7 +5,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: transparent;
+    background-color: var(--primary-color);
     margin-bottom: -1px;
 }
 
@@ -65,13 +65,13 @@ body {
 }
 
 #greet_container {
-    margin-top: 45vh;
+    margin-top: 55vh;
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     #greet_container {
-        margin-top: 45vh;
+        margin-top: 55vh;
     }
 
     #lopcuk {
@@ -82,7 +82,7 @@ body {
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     #greet_container {
-        margin-top: 35vh;
+        margin-top: 45vh;
     }
 
     #lopcuk {
@@ -97,7 +97,7 @@ body {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     #greet_container {
-        margin-top: 45vh;
+        margin-top: 55vh;
     }
 
     #greeting {
@@ -110,7 +110,7 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #greet_container {
-        margin-top: 58vh;
+        margin-top: 68vh;
     }
 
     #greeting {
@@ -122,7 +122,7 @@ body {
 
 #mobile-greet {
     position: relative;
-    margin-top: 40vh;
+    margin-top: 50vh;
     color: var(--secondary-color);
 }
 
