@@ -153,15 +153,8 @@ body {
     color: var(--secondary-color);
 }
 
-/* #welhomelink:hover #outline {
-    stroke: var(--tertiary-color);
+.proj-img {
+    max-width: 250px;
+    filter: drop-shadow(10px 10px 15px rgba(66, 66, 66, 0.288));
 }
-
-#welhomelink:hover #link {
-    fill: var(--tertiary-color);
-}
-
-#welhomelink:hover #arrow {
-    fill: white;
-} */
 

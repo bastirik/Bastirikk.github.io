@@ -1,10 +1,7 @@
-<svg width="113px" height="50px" viewBox="0 0 113 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="112px" height="30px" viewBox="0 0 112 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="MAIN-PAGE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy-4" transform="translate(-696.000000, -2359.000000)">
-            <g id="Group-8" transform="translate(697.000000, 2360.000000)">
-                <path d="M91,0 C102.045695,0 111,10.745166 111,24 C111,37.254834 102.045695,48 91,48 L20,48 C8.954305,48 0,37.254834 0,24 C0,10.745166 8.954305,0 20,0 L91,0 Z" id="Combined-Shape" stroke="#BD632F" stroke-width="2"></path>
-                <path id="Line" d="M68.75207,26.5 L23.373965,26.5 L23.373965,22.5 L68.75207,22.5 L68.75207,12.5 L92.75207,24.5 L68.75207,36.5 L68.75207,26.5 Z" fill="#BD632F" fill-rule="nonzero"></path>
-            </g>
+        <g id="Desktop-HD-Copy-4" transform="translate(-1407.000000, -4720.000000)" fill="#BD632F" fill-rule="nonzero">
+            <path id="Line" d="M1490.04502,4737.58333 L1410.3505,4737.58333 L1407.8505,4737.58333 L1407.8505,4732.58333 L1490.04502,4732.58333 L1490.04502,4720.58333 L1519.04502,4735.08333 L1490.04502,4749.58333 L1490.04502,4737.58333 Z"></path>
         </g>
     </g>
 </svg>
