@@ -56,16 +56,23 @@ body {
 #lopcuk {
     position: absolute;
     width: 100vw;
-    top: calc(30vh - var(--logo-offset));
+    top: calc(25vh - var(--logo-offset));
     z-index: -2;
 }
 
 #projects {
-    margin-top: 60vh;
+    margin-top: 75vh;
 }
 
 #greet_container {
     margin-top: 55vh;
+}
+
+#cratelop {
+    position: absolute;
+    top: 210vh;
+    width: 25vw;
+    left: 75vw;
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -76,6 +83,14 @@ body {
 
     #lopcuk {
         top: calc(45vh - var(--logo-offset));
+    }
+
+    #projects {
+        margin-top: 40vh;
+    }
+
+    #cratelop {
+        top: 180vh;
     }
 }
 
@@ -92,6 +107,10 @@ body {
     #projects {
         margin-top: 30vh;
     }
+
+    #cratelop {
+        top: 160vh;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -104,6 +123,14 @@ body {
         background-color: transparent;
         border: none;
         font-size: 14px;
+    }
+
+    #projects {
+        margin-top: 30vh;
+    }
+
+    #cratelop {
+        display: none;
     }
 }
 
@@ -137,3 +164,4 @@ body {
 #welhomelink:hover #arrow {
     fill: white;
 } */
+
