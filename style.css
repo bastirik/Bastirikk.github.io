@@ -132,6 +132,10 @@ body {
     #cratelop {
         display: none;
     }
+
+    #footer {
+        font-size: 12pt;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -145,6 +149,10 @@ body {
         border: none;
         font-size: 14px;
     }
+
+    #footer {
+        font-size: 12pt;
+    }
 }
 
 #mobile-greet {
@@ -157,4 +165,3 @@ body {
     max-width: 250px;
     filter: drop-shadow(10px 10px 15px rgba(66, 66, 66, 0.288));
 }
-

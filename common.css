@@ -52,6 +52,6 @@
 
 #footer {
   background-color: transparent;
-  color: var(--primary-color);
+  color: rgb(170, 170, 170);
   font-size: 20px;
 }
