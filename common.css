@@ -14,14 +14,14 @@
 
 @font-face {
   font-family: "AvenirNext";
-  src: url('fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+  src: url('fonts/avenir-next/AvenirNext-Regular-08.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "AvenirNext";
-  src: url('fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+  src: url('fonts/avenir-next/AvenirNext-Bold-01.ttf');
   font-weight: bold;
   font-style: normal;
 }

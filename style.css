@@ -1,7 +1,7 @@
 body {
     background-color: white;
     overflow-x: hidden;
-    font-family: GothamRounded;
+    font-family: AvenirNext;
 }
 
 .navbar-custom {
@@ -70,9 +70,10 @@ body {
 
 #cratelop {
     position: absolute;
-    top: 210vh;
-    width: 25vw;
-    left: 75vw;
+    top: 180vh;
+    left: 73vw;
+    width: 35vw;
+    height: 80vw;
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -90,7 +91,7 @@ body {
     }
 
     #cratelop {
-        top: 180vh;
+        top: 165vh;
     }
 }
 
@@ -126,7 +127,7 @@ body {
     }
 
     #projects {
-        margin-top: 30vh;
+        margin-top: 20vh;
     }
 
     #cratelop {
