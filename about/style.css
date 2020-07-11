@@ -49,3 +49,35 @@ ul {
   padding-left: 1rem;
   margin-bottom: 0px;
 }
+
+#skills {
+  background-color: rgb(253, 245, 223);
+  border-radius: 250px;
+}
+
+.skill-section {
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.skill-title {
+  font-size: 13pt;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 11pt;
+}
+
+@media (max-width: 767.98px) {
+  #skills {
+    background-color: transparent;
+  }
+  #mobi-skills {
+    background-color: rgb(253, 245, 223);
+  }
+}
