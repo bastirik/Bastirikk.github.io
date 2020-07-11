@@ -18,25 +18,30 @@ body {
 }
 
 .section {
-  font-size: 24px;
+  font-size: 18pt;
   font-weight: bold;
   font-style: italic;
 }
 
 .date {
-  font-size: 18px;
-  color: grey;
+  font-size: 14pt;
+  font-weight: 400;
+  color: rgb(168, 168, 168);
 }
 
 .title {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 15pt;
+  font-weight: 600;
 }
 
 .subtitle {
   color: var(--fourth-color);
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 11pt;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.details {
   font-style: italic;
 }
 

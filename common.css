@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "GothamRounded";
   src: url('fonts/gotham-rounded/GothamRounded-Book.otf');
   font-weight: normal;
@@ -10,20 +10,48 @@
   src: url('fonts/gotham-rounded/GothamRounded-Bold.otf');
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "AvenirNext";
   src: url('fonts/avenir-next/AvenirNext-Regular-08.ttf');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNext-Italic-05.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNext-DemiBold-03.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNext-DemiBoldItalic-04.ttf');
+  font-weight: 600;
+  font-style: italic;
 }
 
 @font-face {
   font-family: "AvenirNext";
   src: url('fonts/avenir-next/AvenirNext-Bold-01.ttf');
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNext-BoldItalic-02.ttf');
+  font-weight: 700;
+  font-style: italic;
 }
 
 :root {
