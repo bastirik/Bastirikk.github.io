@@ -8,7 +8,7 @@ body {
 .navbar-light .navbar-brand:hover,
 .navbar-light .nav-item .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .navbar-custom .navbar-toggler-icon {
@@ -73,11 +73,30 @@ ul {
   font-size: 11pt;
 }
 
+.caro {
+  width: 90%; 
+  margin: 0 auto;
+}
+
 @media (max-width: 767.98px) {
   #skills {
     background-color: transparent;
   }
+
   #mobi-skills {
     background-color: rgb(253, 245, 223);
   }
+
+  .caro {
+    width: 100%;
+  }
 }
+
+.slick-prev:before {
+  color: var(--fourth-color);
+}
+
+.slick-next:before {
+  color: var(--fourth-color);
+}
+
