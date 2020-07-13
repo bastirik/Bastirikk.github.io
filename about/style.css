@@ -79,20 +79,6 @@ ul {
   margin: 0 auto;
 }
 
-@media (max-width: 767.98px) {
-  #skills {
-    background-color: transparent;
-  }
-
-  #mobi-skills {
-    background-color: rgb(253, 245, 223);
-  }
-
-  .caro {
-    width: 100%;
-  }
-}
-
 .slick-prev:before {
   color: var(--fourth-color);
 }
@@ -101,27 +87,12 @@ ul {
   color: var(--fourth-color);
 }
 
-/* #contact {
-  position: absolute; 
-  background-color: rgb(253, 245, 223);
-  top: 220px; 
-  left: 94vw;
-  width: 30vw;
-  padding: 20px 20px 0px 20px;
-  border-radius: 50px 0px 0px 50px;
-  transition: left 0.5s ease;
-}
-
-#contact:hover {
-  left: 70vw;
-} */
-
 #contact {
   position: fixed;
   top: 220px;
   right: -75px;
   transform: rotate(270deg);
-  background-color: antiquewhite;
+  background-color: rgb(253, 245, 223);
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -136,7 +107,7 @@ ul {
   position: fixed;
   top: 220px;
   right: -335px;
-  background-color: antiquewhite;
+  background-color: rgb(253, 245, 223);
   width: 335px;
   height: 150px;
   transition: right 0.5s ease;
@@ -155,4 +126,51 @@ ul {
 
 #hoverme:hover #details {
   right: 0px;
+}
+
+#email {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+@media (max-width: 767.98px) {
+  #skills {
+    background-color: transparent;
+  }
+
+  #mobi-skills {
+    background-color: rgb(253, 245, 223);
+  }
+
+  .caro {
+    width: 100%;
+  }
+
+  #contact {
+    position: absolute;
+    top: 160px;
+    right: -60px;
+    width: 120px;
+    height: 120px;
+  }
+
+  #contact .title {
+    font-size: 12pt;
+  }
+  
+  #contact p {
+    margin-top: 25px;
+  }
+
+  #details {
+    position: absolute;
+    top: 160px;
+    right: -280px;
+    width: 280px;
+    height: 120px;
+  }
+
+  #hoverme:hover #contact {
+    right: 220px;
+  }
 }
