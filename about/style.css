@@ -2,6 +2,7 @@ body {
   background-color: white;
   color: var(--primary-color);
   font-family: AvenirNext;
+  overflow-x: hidden;
 }
 
 .navbar-light .navbar-brand,
@@ -74,7 +75,7 @@ ul {
 }
 
 .caro {
-  width: 90%; 
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -100,3 +101,58 @@ ul {
   color: var(--fourth-color);
 }
 
+/* #contact {
+  position: absolute; 
+  background-color: rgb(253, 245, 223);
+  top: 220px; 
+  left: 94vw;
+  width: 30vw;
+  padding: 20px 20px 0px 20px;
+  border-radius: 50px 0px 0px 50px;
+  transition: left 0.5s ease;
+}
+
+#contact:hover {
+  left: 70vw;
+} */
+
+#contact {
+  position: fixed;
+  top: 220px;
+  right: -75px;
+  transform: rotate(270deg);
+  background-color: antiquewhite;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: right 0.5s ease;
+}
+
+#contact p {
+  margin-top: 30px;
+}
+
+#details {
+  position: fixed;
+  top: 220px;
+  right: -335px;
+  background-color: antiquewhite;
+  width: 335px;
+  height: 150px;
+  transition: right 0.5s ease;
+}
+
+#info {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+}
+
+#hoverme:hover #contact {
+  right: 260px;
+}
+
+#hoverme:hover #details {
+  right: 0px;
+}
