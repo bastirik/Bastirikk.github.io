@@ -1,0 +1,6 @@
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: var(--primary-color);
+}
