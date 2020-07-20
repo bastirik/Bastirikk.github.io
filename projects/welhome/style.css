@@ -104,3 +104,18 @@ ul {
   font-weight: bold;
   font-style: italic;
 }
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 11pt;
+  }
+  h2 {
+    font-size: 16pt;
+  }
+  .section {
+    font-size: 20pt;
+  }
+  h4 {
+    font-size: 14pt;
+  }
+}
