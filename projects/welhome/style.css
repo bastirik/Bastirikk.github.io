@@ -38,6 +38,17 @@ h3 {
 }
 
 h4 {
+  margin-top: 7rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+h5 {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
   margin-top: 4rem;
   margin-left: 2rem;
   margin-bottom: 1.5rem;
@@ -105,16 +116,41 @@ ul {
   font-style: italic;
 }
 
+strong, b {
+  font-weight: 600;
+}
+
+#projects {
+  background-color: rgb(243, 243, 243);
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+#projects .nav-link {
+  color: rgb(181, 181, 181);
+}
+
+#projects .active {
+  color: var(--primary-color);
+}
+
+#projects .nav-link:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 767.98px) {
   body {
     font-size: 11pt;
   }
+
   h2 {
     font-size: 16pt;
   }
+
   .section {
     font-size: 20pt;
   }
+
   h4 {
     font-size: 14pt;
   }
