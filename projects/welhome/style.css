@@ -10,6 +10,12 @@
   --accent-color: rgb(245, 188, 68);
 }
 
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(64, 83, 180, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  margin-top: -5px;
+  margin-right: -10px;
+}
+
 body {
   color: var(--proj-color);
   font-size: 14pt;
@@ -116,7 +122,8 @@ ul {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: 600;
 }
 
