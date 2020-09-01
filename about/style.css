@@ -1,5 +1,11 @@
+body,
+html,
 #wrapper {
   overflow-x: hidden;
+}
+
+#footer {
+  margin-bottom: 0rem;
 }
 
 .navbar-light .navbar-brand,
