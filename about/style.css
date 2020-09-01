@@ -1,3 +1,4 @@
+html,
 body {
   overflow-x: hidden;
 }
@@ -154,7 +155,7 @@ ul {
   #contact .title {
     font-size: 12pt;
   }
-  
+
   #contact p {
     margin-top: 25px;
   }
