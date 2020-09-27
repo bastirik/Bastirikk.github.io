@@ -1,0 +1,37 @@
+#cover {
+  width: 90vw;
+}
+
+.btn {
+  padding: 20px 15px;
+  border-radius: 10px;
+  color: var(--proj-color);
+  border-color: var(--proj-color);
+  background-color: transparent;
+  font-weight: 600;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.btn:hover {
+  color: white;
+  background-color: var(--proj-color);
+}
+
+#projects {
+  background-color: rgb(243, 243, 243);
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+#projects .nav-link {
+  color: rgb(181, 181, 181);
+  transition: color 0.5s;
+}
+
+#projects .active {
+  color: var(--proj-color);
+}
+
+#projects .nav-link:hover {
+  color: var(--proj-color);
+}

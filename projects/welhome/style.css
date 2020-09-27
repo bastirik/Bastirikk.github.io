@@ -21,10 +21,6 @@ body {
   font-size: 14pt;
 }
 
-#cover {
-  width: 90vw;
-}
-
 h1 {
   font-weight: bold;
 }
@@ -90,21 +86,6 @@ ul {
   max-width: 95vw;
 }
 
-.btn {
-  padding: 20px 15px;
-  border-radius: 10px;
-  color: var(--proj-color);
-  border-color: var(--proj-color);
-  background-color: transparent;
-  font-weight: 600;
-  transition: color 0.5s ease, background-color 0.5s ease;
-}
-
-.btn:hover {
-  color: white;
-  background-color: var(--proj-color);
-}
-
 .num {
   font-size: 32pt;
   font-weight: bold;
@@ -127,23 +108,7 @@ b {
   font-weight: 600;
 }
 
-#projects {
-  background-color: rgb(243, 243, 243);
-  font-weight: bold;
-  margin-top: 5rem;
-}
 
-#projects .nav-link {
-  color: rgb(181, 181, 181);
-}
-
-#projects .active {
-  color: var(--primary-color);
-}
-
-#projects .nav-link:hover {
-  color: var(--primary-color);
-}
 
 @media (max-width: 767.98px) {
   body {

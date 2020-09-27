@@ -2,5 +2,72 @@
 .navbar-light .navbar-brand:hover,
 .navbar-light .nav-item .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-  color: var(--primary-color);
+  color: var(--proj-color);
 }
+
+:root {
+  --proj-color: rgb(53, 123, 138);
+  --accent-color: rgb(225, 110, 105);
+}
+
+body {
+  color: var(--proj-color);
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h3 {
+  margin-top: 3rem;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h4 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.role {
+  margin-top: 3rem;
+  background-color: var(--proj-color);
+  color: white;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.role-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.role ul {
+  padding-left: 1rem;
+}
+
+.num {
+  color: var(--accent-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-right: 0.5rem;
+}
+
