@@ -49,7 +49,7 @@
 :root {
   --logo-size: 40vw;
   --dashes-size: calc(var(--logo-size) + 5vw);
-  --logo-offset: 0vh;
+  --logo-offset: -3vh;
 }
 
 
@@ -69,7 +69,7 @@
 @media (max-width: 991.98px) {
   :root {
     --logo-size: 50vw;
-    --logo-offset: 10vh;
+    --logo-offset: 5vh;
   }
 
   #circle {
