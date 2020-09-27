@@ -99,10 +99,4 @@ h5,
   margin-right: 0.5rem;
 }
 
-.picture {
-  max-width: 85vw;
-}
-
-@media (max-width: 767.98px) {
-
-}
+@media (max-width: 767.98px) {}
