@@ -1,0 +1,108 @@
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: var(--proj-color);
+}
+
+:root {
+  --proj-color: rgb(62, 81, 186);
+  --accent-color: rgb(241, 102, 100);
+  /* font-size: 16px; */
+}
+
+body {
+  color: var(--proj-color);
+}
+
+.container {
+  max-width: 724px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h3 {
+  margin-top: 4rem;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+h5 {
+  margin-top: 5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+h3,
+h4,
+h5,
+.num {
+  margin-left: 2rem;
+}
+
+.role {
+  margin-top: 3rem;
+  background-color: var(--proj-color);
+  color: white;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.role-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.role ul {
+  padding-left: 1rem;
+}
+
+.num {
+  color: var(--accent-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-right: 0.5rem;
+}
+
+.picture {
+  max-width: 85vw;
+}
+
+.num {
+  color: var(--accent-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-right: 0.5rem;
+}
+
+.picture {
+  max-width: 85vw;
+}
+
+@media (max-width: 767.98px) {
+
+}
