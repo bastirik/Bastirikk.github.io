@@ -8,43 +8,44 @@
 :root {
   --proj-color: rgb(64, 83, 180);
   --accent-color: rgb(245, 188, 68);
-}
-
-.navbar-custom .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(64, 83, 180, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  margin-top: -5px;
-  margin-right: -10px;
+  /* font-size: 16px; */
 }
 
 body {
   color: var(--proj-color);
-  font-size: 14pt;
+}
+
+.container {
+  max-width: 724px;
 }
 
 h1 {
-  font-weight: bold;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 4rem;
 }
 
 h2 {
-  font-size: 18pt;
-  font-weight: bold;
-  font-style: italic;
   margin-top: 4rem;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
 }
 
 h3 {
-  font-size: 16pt;
-  font-weight: 600;
+  margin-top: 4rem;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h4 {
-  margin-top: 7rem;
-  margin-left: 2rem;
-  margin-bottom: 1.5rem;
-  font-size: 16pt;
+  margin-top: 5rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 h5 {
@@ -54,76 +55,39 @@ h5 {
   margin-top: 4rem;
   margin-left: 2rem;
   margin-bottom: 1.5rem;
-  font-size: 16pt;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
-.content {
-  max-width: 800px;
+h3,
+h4,
+.num {
+  margin-left: 2rem;
 }
 
 .role {
-  border-radius: 15px;
+  margin-top: 3rem;
   background-color: var(--proj-color);
   color: white;
+  border-radius: 15px;
   padding: 2rem;
-  margin-top: 4rem;
+}
+
+.role-title {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .role ul {
-  padding-left: 1em;
-}
-
-ul {
-  padding-left: 2em;
-}
-
-.role li:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
-.picture {
-  max-width: 95vw;
+  padding-left: 1rem;
 }
 
 .num {
-  font-size: 32pt;
-  font-weight: bold;
   color: var(--accent-color);
-  margin-right: 0.2em;
-}
-
-/* .summary {
-  font-size: 12pt;
-} */
-
-.section {
-  font-size: 24pt;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 700;
   font-style: italic;
+  margin-right: 0.5rem;
 }
 
-strong,
-b {
-  font-weight: 600;
-}
-
-
-
-@media (max-width: 767.98px) {
-  body {
-    font-size: 11pt;
-  }
-
-  h2 {
-    font-size: 16pt;
-  }
-
-  .section {
-    font-size: 20pt;
-  }
-
-  h4 {
-    font-size: 14pt;
-  }
-}
+@media (max-width: 767.98px) {}
