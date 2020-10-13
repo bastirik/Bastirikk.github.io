@@ -1,7 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    scroll-margin-top: 7rem;
+}
+
 body {
     background-color: white;
     overflow-x: hidden;
     font-family: AvenirNext;
+}
+
+/* #craterow {
+    padding: 10rem;
+    background-image: url("images/cotton-ana.png");
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+} */
+
+#crate-proj {
+    background-color: rgb(166, 185, 192);
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+
+#welhome-proj {
+    background-color: rgb(253, 245, 224);
+    border-radius: 15px;
+}
+
+
+#cotton-proj {
+    background-color: rgb(254, 248, 245);
+    border-radius: 15px;
+}
+
+#marbles-proj {
+    background-color: rgb(228, 228, 253);
+    border-radius: 15px;
+}
+
+#crate-proj h2,
+#crate-proj p {
+    color: white;
+}
+
+#welhome-proj h2,
+#welhome-proj p {
+    color: rgb(84, 84, 124);
+}
+
+#cotton-proj h2,
+#cotton-proj p {
+    color: rgb(226, 108, 91);
+}
+
+#marbles-proj h2,
+#marbles-proj p {
+    color: rgb(73, 76, 177);
+}
+
+.img-proj {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#honorable {
+    height: 16rem;
+    position: absolute;
+    right: 1rem;
+    top: -5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+i {
+    font-size: 2rem;
 }
 
 .navbar-custom {
@@ -76,6 +164,10 @@ body {
     height: 80vw;
 }
 
+h1 {
+    font-weight: bold;
+}
+
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     #greet_container {
@@ -111,6 +203,13 @@ body {
 
     #cratelop {
         top: 160vh;
+    }
+
+    #honorable {
+        height: 12rem;
+        position: absolute;
+        right: 0rem;
+        top: -5rem;
     }
 }
 
