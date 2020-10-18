@@ -12,18 +12,9 @@ body {
     font-family: AvenirNext;
 }
 
-/* #craterow {
-    padding: 10rem;
-    background-image: url("images/cotton-ana.png");
-    background-color: aqua;
-    background-size: cover;
-    background-position: center;
-} */
-
 #crate-proj {
     background-color: rgb(166, 185, 192);
     border-radius: 15px;
-    /* overflow: hidden; */
 }
 
 #welhome-proj {
@@ -78,6 +69,41 @@ a:hover {
     top: -5rem;
 }
 
+#airbnb {
+    height: 5rem;
+    position: absolute;
+    right: 2.5rem;
+    bottom: 1.5rem;
+}
+
+#adobe1 {
+    height: 3.7rem;
+    position: absolute;
+    right: 8rem;
+    bottom: 2.15rem;
+}
+
+#ibm {
+    height: 2rem;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2.5rem;
+}
+
+#adobe2 {
+    height: 3.5rem;
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+}
+
+#netflix {
+    height: 3rem;
+    position: absolute;
+    left: 6rem;
+    bottom: 2rem;
+}
+
 h2 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -85,7 +111,7 @@ h2 {
 
 p {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 i {
@@ -115,6 +141,10 @@ i {
     background-color: var(--secondary-color);
     border-radius: 25px;
     border: none;
+}
+
+#greeting .card-text {
+    font-weight: 400;
 }
 
 #welhome,
@@ -168,22 +198,42 @@ h1 {
     font-weight: bold;
 }
 
+.btn {
+    padding: 12px 23px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbtn {
+    padding: 8px 18px;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     #greet_container {
         margin-top: 55vh;
     }
 
-    #lopcuk {
-        top: calc(45vh - var(--logo-offset));
-    }
-
     #projects {
         margin-top: 40vh;
-    }
-
-    #cratelop {
-        top: 165vh;
     }
 }
 
@@ -193,16 +243,8 @@ h1 {
         margin-top: 45vh;
     }
 
-    #lopcuk {
-        top: calc(50vh - var(--logo-offset));
-    }
-
     #projects {
         margin-top: 30vh;
-    }
-
-    #cratelop {
-        top: 160vh;
     }
 
     #honorable {
@@ -228,14 +270,6 @@ h1 {
     #projects {
         margin-top: 15vh;
     }
-
-    #cratelop {
-        display: none;
-    }
-
-    #footer {
-        font-size: 12pt;
-    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -248,10 +282,6 @@ h1 {
         background-color: transparent;
         border: none;
         font-size: 14px;
-    }
-
-    #footer {
-        font-size: 12pt;
     }
 }
 

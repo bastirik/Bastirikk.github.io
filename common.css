@@ -14,6 +14,20 @@
 
 @font-face {
   font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNext-Medium-06.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url('fonts/avenir-next/AvenirNext-MediumItalic-07.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AvenirNext";
   src: url('fonts/avenir-next/AvenirNext-DemiBold-03.ttf');
   font-weight: 600;
   font-style: normal;
@@ -75,12 +89,5 @@ body {
 #footer {
   background-color: transparent;
   color: rgb(170, 170, 170);
-  font-size: 20px;
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  #footer {
-    font-size: 12pt;
-  }
+  font-size: 16px;
 }
