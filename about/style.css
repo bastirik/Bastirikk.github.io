@@ -45,9 +45,9 @@ html,
   font-style: italic;
 }
 
-.details {
+/* .details {
   font-style: italic;
-}
+} */
 
 ul {
   padding-left: 1rem;
@@ -55,7 +55,7 @@ ul {
 }
 
 #skills {
-  background-color: rgb(253, 245, 223);
+  background-color: #D1DFE7;
   border-radius: 250px;
 }
 
@@ -95,7 +95,7 @@ ul {
   top: 220px;
   right: -75px;
   transform: rotate(270deg);
-  background-color: rgb(253, 245, 223);
+  background-color: #D1DFE7;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -110,7 +110,7 @@ ul {
   position: fixed;
   top: 220px;
   right: -335px;
-  background-color: rgb(253, 245, 223);
+  background-color: #D1DFE7;
   width: 335px;
   height: 150px;
   transition: right 0.5s ease;
@@ -136,13 +136,17 @@ ul {
   color: var(--primary-color);
 }
 
+.company-link {
+  color: var(--primary-color);
+}
+
 @media (max-width: 767.98px) {
   #skills {
     background-color: transparent;
   }
 
   #mobi-skills {
-    background-color: rgb(253, 245, 223);
+    background-color: #D1DFE7;
   }
 
   .caro {
