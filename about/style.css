@@ -140,6 +140,10 @@ ul {
   color: var(--primary-color);
 }
 
+.semibold {
+  font-weight: 500;
+}
+
 @media (max-width: 767.98px) {
   #skills {
     background-color: transparent;
