@@ -12,6 +12,16 @@ body {
     font-family: AvenirNext;
 }
 
+#accenture {
+    background-color: #eaeaea;
+    border-radius: 15px;
+}
+
+#accenture h2,
+#accenture p {
+    color: #404040;
+}
+
 #crate-proj {
     background-color: rgb(166, 185, 192);
     border-radius: 15px;
