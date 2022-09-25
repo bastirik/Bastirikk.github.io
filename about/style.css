@@ -65,6 +65,12 @@ ul {
   font-style: italic;
 }
 
+.column {
+  /* background-color: aquamarine; */
+  /* min-width: 200px; */
+  /* text-align: center; */
+}
+
 .skill-title {
   font-size: 13pt;
   font-weight: 600;
