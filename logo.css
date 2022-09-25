@@ -45,6 +45,12 @@
   animation: spin 30s linear infinite;
 }
 
+#dashes:hover {
+  -webkit-animation: rev-spin 30s linear infinite;
+  -moz-animation: rev-spin 30s linear infinite;
+  animation: rev-spin 30s linear infinite;
+}
+
 /* Extra large devices (large desktops) */
 :root {
   --logo-size: 40vw;
@@ -111,5 +117,24 @@
   100% {
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg);
+  }
+}
+
+@-moz-keyframes rev-spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rev-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rev-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
