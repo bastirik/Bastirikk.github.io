@@ -1,0 +1,190 @@
+body,
+html,
+#wrapper {
+  overflow-x: hidden;
+}
+
+#footer {
+  margin-bottom: 0rem;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: var(--primary-color);
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35, 82, 102, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  margin-top: -5px;
+  margin-right: -10px;
+}
+
+.section {
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.date {
+  font-size: 14pt;
+  font-weight: 400;
+  color: rgb(168, 168, 168);
+}
+
+.title {
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: var(--fourth-color);
+  font-size: 11pt;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* .details {
+  font-style: italic;
+} */
+
+ul {
+  padding-left: 1rem;
+  margin-bottom: 0px;
+}
+
+#skills {
+  background-color: #D1DFE7;
+  border-radius: 250px;
+}
+
+.skill-section {
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.column {
+  /* background-color: aquamarine; */
+  /* min-width: 200px; */
+  /* text-align: center; */
+}
+
+.skill-title {
+  font-size: 13pt;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 11pt;
+}
+
+.caro {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slick-prev:before {
+  color: var(--fourth-color);
+}
+
+.slick-next:before {
+  color: var(--fourth-color);
+}
+
+#contact {
+  position: fixed;
+  top: 220px;
+  right: -75px;
+  transform: rotate(270deg);
+  background-color: #D1DFE7;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: right 0.5s ease;
+}
+
+#contact p {
+  margin-top: 30px;
+}
+
+#details {
+  position: fixed;
+  top: 220px;
+  right: -335px;
+  background-color: #D1DFE7;
+  width: 335px;
+  height: 150px;
+  transition: right 0.5s ease;
+}
+
+#info {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+}
+
+#hoverme:hover #contact {
+  right: 260px;
+}
+
+#hoverme:hover #details {
+  right: 0px;
+}
+
+#email {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.company-link {
+  color: var(--primary-color);
+}
+
+
+@media (max-width: 767.98px) {
+  #skills {
+    background-color: transparent;
+  }
+
+  #mobi-skills {
+    background-color: #D1DFE7;
+  }
+
+  .caro {
+    width: 100%;
+  }
+
+  #contact {
+    position: absolute;
+    top: 160px;
+    right: -60px;
+    width: 120px;
+    height: 120px;
+  }
+
+  #contact .title {
+    font-size: 12pt;
+  }
+
+  #contact p {
+    margin-top: 25px;
+  }
+
+  #details {
+    position: absolute;
+    top: 160px;
+    right: -280px;
+    width: 280px;
+    height: 120px;
+  }
+
+  #hoverme:hover #contact {
+    right: 220px;
+  }
+}
