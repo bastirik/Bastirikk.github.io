@@ -19,7 +19,13 @@ body {
 
 #accenture h2,
 #accenture p {
-    color: #404040;
+    color: #3E555E;
+    /* background-color: blue; */
+}
+
+#accenture p {
+    font-weight: 600;
+    /* background-color: red; */
 }
 
 #crate-proj {
