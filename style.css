@@ -311,3 +311,28 @@ h1 {
     max-width: 250px;
     filter: drop-shadow(10px 10px 15px rgba(66, 66, 66, 0.288));
 }
+
+#key {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.wrong {
+    border: 2px solid rgb(215, 28, 29);
+}
+
+.wrong:focus {
+    border: 2px solid rgb(215, 28, 29);
+    outline: none;
+}
+
+#access {
+    border-radius: 5px;
+}
+
+#wrong {
+    position: absolute;
+    color: rgb(215, 28, 29) !important;
+    font-size: 14px;
+    display: none;
+}
