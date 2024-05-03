@@ -78,11 +78,13 @@ async function access(key) {
   const keybox = document.getElementById('key');
   try {
     const decrypted = await aesGcmDecrypt(encrypted, key);
-    window.open(decrypted, '_blank');
+    setTimeout(() => {
+      // window.open(decrypted, '_blank');
+      window.open(decrypted);
+    });
     keybox.classList.remove('wrong');
     wrong.style.display = 'none';
   } catch (e) {
-    console.log('Wrong password!');
     wrong.style.display = 'block';
     keybox.classList.add('wrong');
   }
