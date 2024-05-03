@@ -73,18 +73,19 @@ async function encrypt(plaintext, key) {
 }
 
 async function access(key) {
-  const encrypted = 'OIjh4Se6cqIVFHXnvwQXsyT8Sjq2/K3TRJsQeh6ua7fNpFd1xGOAIKityzhGFDyzylDqYpylI8JgTm+0Et2DsSrLL/CdxLxfYwSwTEnJ+emouCsViPKFqZKaCF2xPIIwMalpd0FeeH0HVUzREES32ay9aa8Vw+/je0N9m0sbYlJ8R4i46eEL3WZEvtd6qWnP6hzn+n8vcWVN1CTinerNTId4GWWU/ZV3kn5tS8Olq8z3BE6x9EQCz2fucc97E9yqdeMUfzZngnTcE705R0UaIXDDvXaW75L1c5PrTcsyRaueThWvTqvolgKcyYMUdZGQ+rdHrCoCm+HEhpvGFZPZ6yzUzcMAO3gXj7d2Yks/lbhYMUwFyw==';
+  const encrypted = 'cHDHk1/I2P0hXRuBS0ow51EH707NBx5+RwGAXm68EbLEzmqfr2ZQt2mmAzSt6iJ3eEOMmf4Qup4SGdHBitVGDoB7maNRn2d/NilG0Lw92WtvVTAeHq7Y4n58hQ9MzWnuCsQkfU176444LKv61nss5Aw4ngVgRlOl5uRZhj864ZTMOmRUkRUx/W/Uk+ZzkDjJsJCU0zDa3DN7AJoJjK4vphJFkdvLySJNXSGdgRlpCv1qw6ieuKZJu9jJIrcWIxPTnvm2E94MfViUYPkPW8O9wrnEUyqWHTyX0FR4iHONPO9lObogc1gXjzJUuTFPFCM6Eb0w1pUPD6Y=';
   const wrong = document.getElementById('wrong');
   const keybox = document.getElementById('key');
+  let win;
   try {
+    win = window.open();
     const decrypted = await aesGcmDecrypt(encrypted, key);
-    setTimeout(() => {
-      // window.open(decrypted, '_blank');
-      window.open(decrypted);
-    });
+    win.location = decrypted;
+    window.open(decrypted, '_blank');
     keybox.classList.remove('wrong');
     wrong.style.display = 'none';
   } catch (e) {
+    win.close()
     wrong.style.display = 'block';
     keybox.classList.add('wrong');
   }
